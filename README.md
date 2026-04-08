@@ -1,4 +1,5 @@
 # EMEA GTM Intelligence Engine
+Portfolio project demonstrating Category Business Manager skills: market sizing, competitive analysis, promotional ROI, and demand signal intelligence across 12 EMEA markets. Enables data-driven go-to-market prioritisation and consumer segment optimisation.
 
 **End-to-end Category Business Manager portfolio project** — market sizing, competitive analysis, promotional ROI modelling, and demand signal intelligence across 12 EMEA markets.
 
