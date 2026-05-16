@@ -1,5 +1,4 @@
 # EMEA GTM Intelligence Engine
-Portfolio project demonstrating Category Business Manager skills: market sizing, competitive analysis, promotional ROI, and demand signal intelligence across 12 EMEA markets. Enables data-driven go-to-market prioritisation and consumer segment optimisation.
 
 **End-to-end Category Business Manager portfolio project** — market sizing, competitive analysis, promotional ROI modelling, and demand signal intelligence across 12 EMEA markets.
 
@@ -155,6 +154,60 @@ Markets classified as **Accelerate** (>65), **Sustain** (45–65), or **Build** 
 
 ---
 
+## Setup & usage
 
+### Prerequisites
+```bash
+python 3.9+
+pip install pandas matplotlib seaborn plotly
+```
+
+### Run analysis pipeline
+```bash
+git clone https://github.com/YOUR_USERNAME/emea-gtm-intelligence
+cd emea-gtm-intelligence
+python src/emea_gtm_analysis.py
+```
+
+All outputs are written to `outputs/` as JSON files.
+
+### Explore in Jupyter
+```bash
+pip install jupyter
+jupyter notebook notebooks/emea_gtm_analysis.ipynb
+```
+
+### View interactive dashboard
+Open `dashboard/index.html` in any modern browser. Five panels:
+- Market opportunity (TAM vs revenue gap)
+- Competitive share evolution
+- Switcher/upgrader funnel
+- Promotional ROI scenarios
+- Demand signal index by market
+
+---
+
+## Extending this project
+
+To connect real Kaggle data (recommended for interviews):
+
+1. Download the datasets listed above from Kaggle
+2. Place CSVs in `data/raw/`
+3. Replace the hardcoded configuration dictionaries in `src/emea_gtm_analysis.py` with `pd.read_csv()` calls
+4. The analysis functions operate on the same output schemas — no other changes needed
+
+---
+
+## Skills demonstrated
+
+- **Market sizing**: Bottom-up TAM methodology with tiering and opportunity indexing
+- **Competitive analysis**: Share shift decomposition, trend modelling
+- **Commercial strategy**: Promotional ROI modelling, channel mix optimisation
+- **Demand intelligence**: Composite signal index construction, market investment prioritisation
+- **Consumer insight**: Funnel analysis by segment with conversion benchmarking
+- **Python**: Modular analytical pipeline, reproducible outputs, data visualisation
+- **Storytelling**: Dashboard design, executive summary synthesis
+
+---
 
 *Built as a portfolio project demonstrating Category Business Manager competencies for EMEA consumer hardware GTM roles.*
