@@ -182,14 +182,6 @@ Open `dashboard/index.html` in any modern browser. Five panels:
 
 ---
 
-## Extending this project
-
-To connect real Kaggle data (recommended for interviews):
-
-1. Download the datasets listed above from Kaggle
-2. Place CSVs in `data/raw/`
-3. Replace the hardcoded configuration dictionaries in `src/emea_gtm_analysis.py` with `pd.read_csv()` calls
-4. The analysis functions operate on the same output schemas — no other changes needed
 
 ---
 
