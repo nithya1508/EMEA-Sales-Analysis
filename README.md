@@ -8,13 +8,8 @@ Built to demonstrate the analytical and strategic skills required for go-to-mark
 
 ## What this project demonstrates
 
-| JD requirement | Implementation |
-|---|---|
-| In-depth data analysis to identify trends & opportunities | TAM sizing, quarterly sell-out modelling, competitive share shift analysis |
-| Go-to-market strategy across EMEA | Market tier framework, Demand Signal Index, investment prioritisation matrix |
-| Promotional offer strategy & budget management | ROI modelling across 8 promo scenarios × 4 channels |
-| Business performance & market share interpretation | Competitive landscape tracker with trend decomposition |
-| Internal authority on product category | Upgrader/switcher funnel with segment-level conversion benchmarks |
+<img width="1440" height="834" alt="image" src="https://github.com/user-attachments/assets/dd6f89a1-85c9-4490-a5cd-5a738a91bf17" />
+
 
 ---
 
